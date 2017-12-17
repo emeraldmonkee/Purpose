@@ -51,7 +51,7 @@ public class Camera_movement : MonoBehaviour
                 character.transform.localRotation = Quaternion.AngleAxis(mouseLook.x, character.transform.up);
             }
 
-
+/*
             if (Input.GetKeyDown(KeyCode.V))
             {
                 transform.Translate(0, 0.5f, -2);
@@ -65,6 +65,7 @@ public class Camera_movement : MonoBehaviour
 
                 LookAround = true;
             }
+            */
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {

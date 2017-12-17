@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Advanced_Jump : MonoBehaviour
 {
-    public float fallMultiplier = 2.5f;
+    public float fallMultiplier = 5f;
     public float lowjumpMultiplier = 2.0f;
 
     Rigidbody rb;
